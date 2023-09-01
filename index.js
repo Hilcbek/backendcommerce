@@ -13,7 +13,7 @@ let app = express()
 dotenv.config()
 app.use(express.json())
 app.use(cors({
-    origin : ['http://localhost:5173','https://frontendeccomerce-final.vercel.app'],
+    origin : ['http://localhost:5173','https://frontendeccomerce-updated.vercel.app'],
     credentials : true
 }))
 app.use(morgan('dev'))
